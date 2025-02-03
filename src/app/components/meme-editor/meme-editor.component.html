@@ -1,0 +1,8 @@
+<div class="meme-container">
+    sdhsjdhj
+    <input type="file" (change)="onFileSelected($event)" />
+    <canvas #memeCanvas></canvas>
+    <input type="text" [(ngModel)]="topText" placeholder="Top Text" />
+    <input type="text" [(ngModel)]="bottomText" placeholder="Bottom Text" />
+    <button (click)="downloadMeme()">Download Meme</button>
+</div>
